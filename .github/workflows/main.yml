@@ -40,7 +40,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/test-cicd:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/test-cicd
 
       - name: Set the Kubernetes context
         uses: azure/k8s-set-context@v2
