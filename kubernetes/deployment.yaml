@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: test-X
+      - name: test-x
         image: mya4th/test-cicd:latest
       imagePullSecrets:
       - name: regcred
