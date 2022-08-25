@@ -17,5 +17,5 @@ spec:
       containers:
       - name: test-X
         image: mya4th/test-cicd:latest
-    imagePullSecrets:
-    - name: regcred
+      imagePullSecrets:
+      - name: regcred
