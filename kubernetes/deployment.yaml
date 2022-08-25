@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: test-deployment
-        image: mya4th/test-cicd:latest
+        image: mya4th/test-cicd
       imagePullSecrets:
       - name: regcred
