@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: test-deployment
   labels:
-    app: nginx
+    app: test-deployment
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: nginx
+      app: test-deployment
   template:
     metadata:
       labels:
-        app: nginx
+        app: test-deployment
     spec:
       containers:
-      - name: test-x
+      - name: test-deployment
         image: mya4th/test-cicd:latest
       imagePullSecrets:
       - name: regcred
