@@ -4,6 +4,7 @@ metadata:
   name: test-deployment
   labels:
     app: test-deployment
+    version: v1
 spec:
   replicas: 3
   selector:
